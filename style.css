@@ -1,0 +1,123 @@
+*{
+    margin:0px;
+    padding: 0px;
+   }
+#sayfa{
+   border-style: solid;
+   border-width: 1px;
+   width: 500px;
+   height:750px;
+   margin: auto;
+   
+
+   }
+#banner{
+   border-style: dotted;
+   border-width: 1px;
+   width: 500px;
+   height: 80px;
+   margin: auto;
+   background-color:white;
+
+}
+#logo{
+   border-style: none;
+   border-width: 1px;
+   width: 100px;
+   height: 70px;
+   margin: auto;
+   float: left;
+   position: relative;
+   top: 8px;
+   left: 8px;
+   
+}
+#sosyal{
+   border-style: none;
+   border-width: 1px;
+   width: 150px;
+   height: 50px;
+   margin: auto;
+   float: right;
+   position: relative;
+   top:25px;
+   right: 8px;
+   
+}
+#ikon{
+   float: right;
+   margin-left: 5px;
+}
+#anamenu{
+   border-style: dotted;
+   border-width: 1px;
+   width: 500px;
+   height: 60px;
+   margin: auto;
+   background-color:aqua;
+}
+#anamenu ul{
+   list-style: none;
+}
+#anamenu li{
+   float: left;
+   border-style: solid;
+   border-radius: 7px;
+   margin: 25px;
+   padding: 10px;
+   background-color:white;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 13px;
+   position: relative;
+   top:-15px;
+   
+}
+#anamenu li a{
+   color:blue;
+   text-decoration:none;
+   
+}
+#anamenu li a:hover{
+   color: red;
+   text-decoration: underline;
+}
+#icerik{
+   border-style: dotted;
+   border-width: 1px;
+   width: 360px;
+   height: 550px;
+   float: left;
+   background-color:beige;
+   text-align: center;
+   position: relative;
+   top: -30px;
+   overflow: auto;
+   
+}
+#yanmenu{
+   border-style: dotted;
+   border-width: 1px;
+   width: 136px;
+   height: 550px;
+   float:right;
+   background-color:hotpink;
+   position: relative;
+   top:-30px;
+   overflow: auto;
+   
+}
+h1{
+   position: relative;
+   left: 0px;
+   top:5px;
+   font-size: 25px;
+   color: red;
+   font-style: oblique;
+}
+.metin{
+ font-weight: bold;
+ font-size: 13px; 
+}
+h2{
+   color:darkred;
+}
